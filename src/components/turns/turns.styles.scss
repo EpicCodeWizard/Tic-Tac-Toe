@@ -1,0 +1,21 @@
+.turns {
+  .turn {
+    opacity: 0.1;
+    width: 100%;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+    padding: 0 40px;
+    transition: opacity 0.2s ease;
+    p {
+      flex-basis: 70%;
+    }
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}

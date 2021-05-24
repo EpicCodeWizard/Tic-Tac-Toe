@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  background-color: #27476e;
+  color: #f4f4f4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
